@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ejemplo de JavaScript</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+
+    <script>
+	let x;
+	x = 11;
+	while (x <= 275) {
+    	document.write(x);
+    	document.write('<br>');
+    	x = x + 11;
+	}
+	document.write('MULTIPLOS DE 8');
+	let n;
+	n = 8;
+	while (x <= 500) {
+    	document.write(n);
+    	document.write('<br>');
+    	n = n+8;
+	}
+
+    </script>
+
+</body>
+</html>
