@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ejemplo de JavaScript</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+
+    <script>
+        let palabra
+        palabra= prompt('ingrese una palabra (casa, mesa, perro, gato)')
+        let casa
+        if (palabra == 'casa') {
+            document.write('house');
+        }
+         if (palabra == 'mesa') {
+            document.write('table');
+        }
+         if (palabra == 'perro') {
+            document.write('dog');
+        }
+         if (palabra == 'gato') {
+            document.write('cat');
+        }
+
+    </script>
+
+</body>
+</html>
+    
